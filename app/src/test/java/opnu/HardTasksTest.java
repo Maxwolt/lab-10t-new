@@ -51,21 +51,6 @@ public class HardTasksTest {
     @DisplayName("applyDiscountToToys")
     public void test3() {
 
-        // region Вірна відповідь
-        // id та нова ціна товарів:
-        // id=2 price=6.33
-        // id=4 price=268.4
-        // id=6 price=73.26
-        // id=11 price=47.75
-        // id=13 price=147.685
-        // id=21 price=47.73
-        // id=26 price=179.635
-        // id=27 price=393.495
-        // id=28 price=158.045
-        // id=29 price=386.39
-        // id=30 price=455.73
-        // endregion
-
         Map<Integer, Double> expected = new HashMap<>();
 
         expected.put(2, 6.33);
